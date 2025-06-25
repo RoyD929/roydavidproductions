@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roy David Productions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="bts.html">Behind the Scenes</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <video autoplay muted loop id="hero-video">
+      <source src="reel-background.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-text" id="welcomeText">
+      <h1>Welcome to Roy David Productions</h1>
+    </div>
+  </header>
+
+  <section id="reel" class="fullscreen-reel-section">
+    <video id="featuredReel" autoplay muted loop>
+      <source src="featured-reel.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>© 2025 Roy David Productions</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
